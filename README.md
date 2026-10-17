@@ -1,10 +1,9 @@
 # Scenry 🎉
 
-[![CI/CD Pipeline](https://github.com/BrayanML26/ticketmaster-events/actions/workflows/ci.yml/badge.svg)](https://github.com/BrayanML26/ticketmaster-events/actions/workflows/ci.yml)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.5-blue.svg)](https://www.typescriptlang.org/)
+[![CI/CD Pipeline](https://github.com/BrayanML26/scenry/actions/workflows/ci.yml/badge.svg)](https://github.com/BrayanML26/scenry/actions/workflows/ci.yml)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.9-blue.svg)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-18-61dafb.svg)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-5.4-646cff.svg)](https://vitejs.dev/)
-[![Tests](https://img.shields.io/badge/Tests-Passing-success.svg)](https://github.com/BrayanML26/ticketmaster-events)
 
 > Discover live experiences. Explore what's happening around you.
 
@@ -24,7 +23,7 @@
 - **Skeleton Loaders**: Enhanced perceived performance
 - **Dark Mode**: Full support for dark theme
 - **Responsive Design**: Optimized for mobile, tablet, and desktop
-- **Comprehensive Testing**: Unit tests with Vitest
+- **Unit Tests**: Vitest and React Testing Library
 - **CI/CD**: Automated pipeline with GitHub Actions
 
 ## 🛠️ Tech Stack
@@ -59,10 +58,10 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/BrayanML26/ticketmaster-events.git
+git clone https://github.com/BrayanML26/scenry.git
 
 # Install dependencies
-cd ticketmaster-events
+cd scenry
 npm install
 
 # Configure environment variables
@@ -110,7 +109,7 @@ npm run preview
 The application is a fully functional Progressive Web App:
 
 - ✅ Installable on mobile and desktop devices
-- ✅ Works offline with cached data
+- ✅ Static assets and Ticketmaster API responses cached with Workbox
 - ✅ Custom icons for iOS and Android
 - ✅ Optimized caching strategies
 
@@ -134,7 +133,7 @@ Every push to `main` automatically triggers:
 ## 📊 Project Structure
 
 ```
-ticketmaster-events/
+scenry/
 ├── .github/
 │   └── workflows/
 │       └── ci.yml          # GitHub Actions workflow
