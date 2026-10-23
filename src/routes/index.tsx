@@ -1,4 +1,4 @@
-import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider, Outlet, ScrollRestoration } from 'react-router-dom';
 import Home from '../views/Home';
 import Detail from '../views/Detail';
 import Error from '../views/Error';
@@ -14,6 +14,7 @@ const Layout = () => {
                 <Outlet />
             </main>
             <Footer />
+            <ScrollRestoration />
         </div>
     );
 };
